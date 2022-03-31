@@ -4,7 +4,13 @@ It is important that we understand the basic terminology from the world of crypt
 
 **Alpha**: What's the return on investment.
 
+**Altcoin**: Any cryptocurrency other than Bitcoin.
+
 **Airdrop**: A marketing technique to promote a new virtual token/ coin by sending them to wallet addresses
+
+**ATH**: All Time High. Highest price that an asset has reached ever.
+
+**ATL**: All Time Low. Lowest price that an asset has reached ever.
 
 **Bitcoin**: The most well-known cryptocurrency even though it is less of a currency and more of a store of value.
 
@@ -25,6 +31,8 @@ It is important that we understand the basic terminology from the world of crypt
 **DAO**: Decentralized Autonomous Organization. Similar to an LLC the DAO relies on all its members to make decisions on the future. Members are token holders of the DApp.  
 
 **DEX**: Decentralized exchanges like Uniswap.  
+
+**DYOR**: Do Your Own Research.
 
 **Exchanges**: Platforms used to exchange or buy cryptos. There are centralized exchanges like Coinbase and Binance, and decentralized exchanges like Uniswap and Sushiswap  
 
