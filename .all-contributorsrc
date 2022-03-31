@@ -132,6 +132,15 @@
       "contributions": [
         "bug"
       ]
+    },
+    {
+      "login": "akashdeepghosh",
+      "name": "Akashdeep Ghosh",
+      "avatar_url": "https://avatars.githubusercontent.com/u/43311467?v=4",
+      "profile": "https://github.com/akashdeepghosh",
+      "contributions": [
+        "bug"
+      ]
     }
   ],
   "contributorsPerLine": 7,
