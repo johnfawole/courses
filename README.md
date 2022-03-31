@@ -1,6 +1,6 @@
 See a typo or think you can explain a concept better?You're welcome to work and make edits to our material. 
 <!-- ALL-CONTRIBUTORS-BADGE:START - Do not remove or modify this section -->
-[![All Contributors](https://img.shields.io/badge/all_contributors-15-orange.svg?style=flat-square)](#contributors-)
+[![All Contributors](https://img.shields.io/badge/all_contributors-16-orange.svg?style=flat-square)](#contributors-)
 <!-- ALL-CONTRIBUTORS-BADGE:END -->
 
 
@@ -32,6 +32,7 @@ Thanks goes to these wonderful people ([emoji key](https://allcontributors.org/d
   </tr>
   <tr>
     <td align="center"><a href="https://github.com/akashdeepghosh"><img src="https://avatars.githubusercontent.com/u/43311467?v=4?s=100" width="100px;" alt=""/><br /><sub><b>Akashdeep Ghosh</b></sub></a><br /><a href="https://github.com/CadenaDev/courses/issues?q=author%3Aakashdeepghosh" title="Bug reports">🐛</a></td>
+    <td align="center"><a href="https://github.com/legendh"><img src="https://avatars.githubusercontent.com/u/12997268?v=4?s=100" width="100px;" alt=""/><br /><sub><b>legendh</b></sub></a><br /><a href="https://github.com/CadenaDev/courses/issues?q=author%3Alegendh" title="Bug reports">🐛</a></td>
   </tr>
 </table>
 
