@@ -111,7 +111,7 @@ Solidity has local, state, and global variables. State variables are stored on t
 
 We're going to declare our variables `bankOwner` and `bankName` at the contract level which makes them state variables. We use the `address` keyword when we want to store an Ethereum address, in this case the address of our bank owner. 
 
-Then we define another variable for our bank name with the type of `string`. Notice that these variables are both defined out side of any functions and both have a `public` keyword (visibility modifier). The `public` keyword will allow anyone to access these variables, automatically creating a getter for us which will come in handy for our front-end. Other visiblitiy modifiers include private, internal, and external.
+Then we define another variable for our bank name with the type of `string`. Notice that these variables are both defined out side of any functions and both have a `public` keyword (visibility modifier). The `public` keyword will allow anyone to access these variables, automatically creating a getter for us which will come in handy for our front-end. Other visibility modifiers include private, internal, and external.
 
 ```solidity
 // SPDX-License-Identifier: GPL-3.0
