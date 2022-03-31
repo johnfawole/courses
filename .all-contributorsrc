@@ -141,6 +141,15 @@
       "contributions": [
         "bug"
       ]
+    },
+    {
+      "login": "legendh",
+      "name": "legendh",
+      "avatar_url": "https://avatars.githubusercontent.com/u/12997268?v=4",
+      "profile": "https://github.com/legendh",
+      "contributions": [
+        "bug"
+      ]
     }
   ],
   "contributorsPerLine": 7,
