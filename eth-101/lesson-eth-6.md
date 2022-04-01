@@ -63,7 +63,7 @@ We will do a quick breakdown of these dependencies and what they do.
 
 Let's check out the folder structure from Hardhat. `contracts` will be where our contracts go, `scripts` is where our scripts will live that allow us deploy our contract, and `test` is for any testing we would like to do.
 
-6. Delete `Greet.sol` from the contract folder, delete `sample-script.js` from scripts, and `sample-test.js` from the test folder. 
+6. Delete `Greeter.sol` from the contracts folder, delete `sample-script.js` from scripts, and `sample-test.js` from the test folder. 
 
 We're almost at the finish line. We're now going to setup our hardhat config and our environment variables.
 
