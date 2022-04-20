@@ -150,6 +150,15 @@
       "contributions": [
         "bug"
       ]
+    },
+    {
+      "login": "andrewinsoul",
+      "name": "Okoye Andrew",
+      "avatar_url": "https://avatars.githubusercontent.com/u/25207671?v=4",
+      "profile": "https://github.com/andrewinsoul",
+      "contributions": [
+        "bug"
+      ]
     }
   ],
   "contributorsPerLine": 7,
