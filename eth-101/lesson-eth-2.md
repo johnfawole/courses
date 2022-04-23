@@ -29,12 +29,12 @@ Click on the fox icon in your browser, then click Ethereum Mainnet located at th
 
 Next you will need send your self some fake Ether via what’s known as a faucet. Here are a list of faucets, again double check these as sometimes the faucets are out of fake ether.
 
-- Alchemy(fastest): https://www.rinkebyfaucet.com/
+- **Alchemy(recommended):** https://www.rinkebyfaucet.com/
 - MyCrypto: https://app.mycrypto.com/faucet
 - Rinkeby: https://faucet.rinkeby.io
 - MetaMask: https://faucet.metamask.io
 - Chainlink: https://faucets.chain.link/rinkeby
-- You can ask us in the discord if you run out of fake Ether.
+- You can ask us in the discord if you run out of fake Ether or use Alchemy's.
 
 **Solidity** 
 
@@ -53,4 +53,4 @@ You’ll need to have an intermediate understanding of JavaScript or another pro
 
 You can use your favorite code editor but download the package that allows for Solidity syntax highlighting. For some lessons we will use Remix, an online development environment for smart contracts ([remix.ethereum.org/](http://remix.ethereum.org/)).
 
-➡️ **Action Item** Share with us your public address in the [discord](https://discord.gg/UQayXxzazc) and let us know what you learned by setting up your wallet. 
+➡️ **Action Item** Share with us your public address in the #general [discord](https://discord.gg/UQayXxzazc) and let us know what you're hoping to build after you finish your course.
