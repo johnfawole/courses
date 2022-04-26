@@ -4,7 +4,7 @@ As a smart contract developer we need to compile, test, debug, and deploy our co
 
 While truffle and web3.js are used in many projects today, more and more developers are switching over to hardhat and ethers.js for smart contract development so we will be using this stack moving forward. We still recommend playing around with truffle and web3.js. There are even SDKs out there that abstract away the complexity of developing contracts so you can write everything in just JavaScript, but it's important to learn the basics first.
 
-We will also be using [Alchemy](https://www.alchemy.com/) to broadcast our transactions to the testnet instead of Infura but we also recommend playing around with Infura. If you have a Python background, check out [Brownie](https://eth-brownie.readthedocs.io/en/stable/).
+We will also be using Alchemy to broadcast our transactions to the testnet but we also recommend playing around with [Pocket](https://www.pokt.network/) and Infura. If you have a Python background, check out [Brownie](https://eth-brownie.readthedocs.io/en/stable/).
 
 **Note:** This lesson will be lengthy so set aside 20mins-30mins. Feel free to take breaks in between.
 
