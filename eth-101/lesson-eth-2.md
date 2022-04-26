@@ -29,12 +29,12 @@ Click on the fox icon in your browser, then click Ethereum Mainnet located at th
 
 Next you will need send your self some fake Ether via what’s known as a faucet. Here are a list of faucets, again double check these as sometimes the faucets are out of fake ether.
 
-- **Alchemy(recommended):** https://www.rinkebyfaucet.com/
+- RBF: https://www.rinkebyfaucet.com/
 - MyCrypto: https://app.mycrypto.com/faucet
 - Rinkeby: https://faucet.rinkeby.io
 - MetaMask: https://faucet.metamask.io
 - Chainlink: https://faucets.chain.link/rinkeby
-- You can ask us in the discord if you run out of fake Ether or use Alchemy's.
+- You can ask us in the discord if you run out of fake Ether.
 
 **Solidity** 
 
