@@ -4,7 +4,12 @@ As a smart contract developer we need to compile, test, debug, and deploy our co
 
 While truffle and web3.js are used in many projects today, more and more developers are switching over to hardhat and ethers.js for smart contract development so we will be using this stack moving forward. We still recommend playing around with truffle and web3.js. There are even SDKs out there that abstract away the complexity of developing contracts so you can write everything in just JavaScript, but it's important to learn the basics first.
 
-We will also be using Alchemy to broadcast our transactions to the testnet but we also recommend playing around with [Pocket](https://www.pokt.network/) and Infura. If you have a Python background, check out [Brownie](https://eth-brownie.readthedocs.io/en/stable/).
+If you have a Python background, check out [Brownie](https://eth-brownie.readthedocs.io/en/stable/).
+
+
+
+We also need an end point to test our contracts and broadcast our contract interactions. We will be using [POKT](https://www.pokt.network/) to broadcast our transactions to the ethereum rinkeby testnet since it is the closest decentralized solution out there and the leading node provider. [Infura and Alchemy](https://docs.pokt.network/home/resources/faq/product-comparisons#centralized-apis-e.g.-infura-or-alchemy) are centralized providers that broadcast your transactions through their own centralized API and hardware.
+
 
 **Note:** This lesson will be lengthy so set aside 20mins-30mins. Feel free to take breaks in between.
 
@@ -105,13 +110,13 @@ RINKEBY_PRIVATE_KEY=YOUR_PRIVATE_KEY
 
 Switch your Metamask to the Rinkeby Testnet and paste in your private key. [Here's](https://metamask.zendesk.com/hc/en-us/articles/360015289632-How-to-Export-an-Account-Private-Key) how you can get your private key. Again make this a throw-away account that will never be used for real transactions. We will need the private key to sign our transactions, deploy and make function calls to our contract.
 
-### Setting up Alchemy 🧙🏽‍♀️ 
+### Setting up POKT 🧙🏽‍♀️ 
 
-Next we need an Ethereum node to broadcast our contract transaction to the blockchain so miners can pick it up, mine it, and store it on the blockchain. For this we will be using [Alchemy](https://www.alchemy.com/). Head over here and sign up for an account and verify your email. 
+Next we need an Ethereum node to broadcast our contract transaction to the blockchain so miners can pick it up, mine it, and store it on the blockchain. For this we will be using [POKT](https://mainnet.portal.pokt.network/#/signup). Head over here and sign up for an account and verify your email. 
 
 On the `Select Ecosystem` page choose "Ethereum including L2s". On the `Create your first app` page Enter 'Bank DAPP' or whatever you would like to call your app and team name. The most importantly in the `network` drop down **choose Rinkeby**.
 
-For the plan click free forever, click skip for now when they ask for credit card info, then hit continue for scaling policy. Click let's go to be taken to your dashboard. Click the name of your app "Bank DAPP", click view details and in the top right click view key. Copy and paste your HTTP key into the `ALCHEMY_RINKEBY_URL` section. Save your .env file.
+For the plan click free forever, click skip for now when they ask for credit card info, then hit continue for scaling policy. Click let's go to be taken to your dashboard. Click the name of your app "Bank DAPP", click view details and in the top right click view key. Copy and paste your HTTP key into the `POKT_RINKEBY_URL` section. Save your .env file.
 
 To load up your account with fake eth, [here](https://app.cadena.dev/ZHjzLozd3mCsAcgMfeHE/lesson/ethereum-101/lesson-eth-2/2) are some faucets from our previous lessons.
 
