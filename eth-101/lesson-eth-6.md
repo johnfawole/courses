@@ -82,7 +82,7 @@ module.exports = {
   solidity: "0.8.0",
   networks: {
     rinkeby: {
-      url: `${process.env.ALCHEMY_RINKEBY_URL}`,
+      url: `${process.env.POKT_RINKEBY_URL}`,
       accounts: [`${process.env.RINKEBY_PRIVATE_KEY}`],
     } 
   }
@@ -104,7 +104,7 @@ Before we proceed, create a metamask account that will only be used for this cou
 8. Now we're going to setup our enviromment variables. Create a file called `.env` in the root of our project folder and paste the following in:
 
 ```javascript
-ALCHEMY_RINKEBY_URL=YOUR_ALCHEMY_RINKEBY_URL
+POKT_RINKEBY_URL=YOUR_POKT_RINKEBY_URL
 RINKEBY_PRIVATE_KEY=YOUR_PRIVATE_KEY
 ```
 
@@ -114,10 +114,10 @@ Switch your Metamask to the Rinkeby Testnet and paste in your private key. [Here
 
 Next we need an Ethereum node to broadcast our contract transaction to the blockchain so miners can pick it up, mine it, and store it on the blockchain. For this we will be using [POKT](https://mainnet.portal.pokt.network/#/signup). Head over here and sign up for an account and verify your email. 
 
-On the `Select Ecosystem` page choose "Ethereum including L2s". On the `Create your first app` page Enter 'Bank DAPP' or whatever you would like to call your app and team name. The most importantly in the `network` drop down **choose Rinkeby**.
+1. Create an app and choose Ethereum Rinkeby for your chain, give your app a name and click launch app. Give it sometime to bootup.
+2. Click app security, then in approved chains make sure to select Ethereum Rinkeby and hit save changes.
+3. Copy and paste your HTTP end point key into the `POKT_RINKEBY_URL` section. Save your .env file.
 
-For the plan click free forever, click skip for now when they ask for credit card info, then hit continue for scaling policy. Click let's go to be taken to your dashboard. Click the name of your app "Bank DAPP", click view details and in the top right click view key. Copy and paste your HTTP key into the `POKT_RINKEBY_URL` section. Save your .env file.
-
-To load up your account with fake eth, [here](https://app.cadena.dev/ZHjzLozd3mCsAcgMfeHE/lesson/ethereum-101/lesson-eth-2/2) are some faucets from our previous lessons.
+[Here](https://app.cadena.dev/ZHjzLozd3mCsAcgMfeHE/lesson/ethereum-101/lesson-eth-2/2) are some faucets from our previous lessons to load up your account with fake Eth or ask us in the discord.
 
 Great job getting this far! That was a lot, so feel free to take a breather 🌱
