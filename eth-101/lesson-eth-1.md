@@ -2,7 +2,7 @@
 
 ### How this course works?
 
-In this course you will learn how to build dapps, smart contracts, and deploy them to the Ethereum Blockchain. This course can be completed over a weekend and includes 3 projects that you can add to your portfolio. **In order to qualify for an NFT Certificate you need to submit *one of these 3* projects for review**. Upon review, you will then recieve an NFT Certificate that can be added to your Linkedin or Resume. 
+In this course you will learn how to build dapps, smart contracts, and deploy them to the Ethereum Blockchain. This course can be completed over a weekend and includes 3 projects that you can add to your portfolio. **In order to qualify for an NFT Certificate you need to submit *one of these 3* projects for review**. Upon review, you will then recieve an NFT Certificate that can be added to your LinkedIn or Resume. 
 
 🔑 Coding experience is required, the key is to push through the lessons to learn the big picture concepts and you will pick up languages like Solidity as you build.
 
@@ -12,7 +12,7 @@ For our course we will be using the Ethereum blockchain. You might have heard of
 
 In addition to having a native currency, Ethereum is actually a distributed computer that you can execute code on in the form of Smart Contracts. So now we have a blockchain that is a database, a network, and a computer. 
 
-In addition to creating smart contracts, Ethereum has facilitated the creation of new coins that use the network and NFT’s. To create a currency on top of Ethereum, you follow the [ERC20](https://ethereum.org/en/developers/docs/standards/tokens/erc-20/) token standard and to create an NFT you follow the [ERC-721](https://ethereum.org/en/developers/docs/standards/tokens/erc-721) standard. Recently there's been introduced the [ERC-1155](https://eips.ethereum.org/EIPS/eip-1155) that let's you save on gas by using one contract for multiple tokens.
+In addition to creating smart contracts, Ethereum has facilitated the creation of new coins that use the network and NFTs. To create a currency on top of Ethereum, you follow the [ERC20](https://ethereum.org/en/developers/docs/standards/tokens/erc-20/) token standard and to create an NFT you follow the [ERC-721](https://ethereum.org/en/developers/docs/standards/tokens/erc-721) standard. Recently they introduced the [ERC-1155](https://eips.ethereum.org/EIPS/eip-1155) that let's you save on gas by using one contract for multiple tokens.
 
 What makes this blockchain unique is that it is a network, a database, and a computer. Every action executed on the Ethereum blockchain requires a fee to be paid known as gas. The fees used to be fairly cheap but as of this writing it can cost up to $100 to send 10 dollars. 
 

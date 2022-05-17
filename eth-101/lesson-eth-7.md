@@ -2,14 +2,14 @@
 
 Now that we're all setup let's deploy our bank contract to the Rinkeby network. Be sure to have fake eth in your account from a faucet before we proceed.
 
-1. First, copy the code from our bank contract lesson, create a file called "BankContract.sol" in the contracts folder in your hardhat project and paste your code in, then save the file. If you need a copy of the contract you can find it [here](https://gist.github.com/saeedjabbar/8df7a329edbb92274bf1f08c8cf55ee9).
-2. Then we compile our contract with by running this command, remember this flow compile -> deploy.
+1. First, copy the code from our bank contract lesson, create a file called "BankContract.sol" in the contracts folder in your Hardhat project and paste your code in, then save the file. If you need a copy of the contract you can find it [here](https://gist.github.com/saeedjabbar/8df7a329edbb92274bf1f08c8cf55ee9).
+2. Then we compile our contract by running the following command. Remember this flow: compile -> deploy.
 
 ```bash
 npx hardhat compile
 ```
 
-You should see `Compilation finished successfully`. If you don't for some reason run this command and then compile again. [Here's](https://hardhat.org/guides/compile-contracts.html) the official Hardhat documentation on compiling.
+You should see `Compilation finished successfully`. If it doesn't compile for some reason, run the following command and compile again. [Here's](https://hardhat.org/guides/compile-contracts.html) the official Hardhat documentation on compiling.
 
 ```
 npx hardhat clean
@@ -17,9 +17,9 @@ npx hardhat clean
 
  Notice after we compiled our contract, we have a new folder called `artifacts` that contains two other folders `build-info` and `contracts`. Open those folders up and take a look around. 
 
-In contracts notice a file named Bank.json or what ever the name was of your smart contract. This will be super important because we will need it for our front-end to interact with our smart contract. This is essentially a JSON version of our smart contract. This is referred to as an ABI file, you can learn more about that [here](https://www.quicknode.com/guides/solidity/what-is-an-abi) and read more about artifacts [here](https://hardhat.org/guides/compile-contracts.html#artifacts).
+In contracts notice a file named after your smart contract, like Bank.json. This will be super important because we will need it for our front-end to interact with our smart contract. This is essentially a JSON version of our smart contract. This is referred to as an ABI file, you can learn more about that [here](https://www.quicknode.com/guides/solidity/what-is-an-abi) and read more about artifacts [here](https://hardhat.org/guides/compile-contracts.html#artifacts).
 
-3. Now it's time to deploy our contract. In your scripts folder, create a new file called deploy.js and paste the following code. I've included the comments that come out of the box with hardhat but we will also go through this line by line.
+3. Now it's time to deploy our contract. In your scripts folder, create a new file called deploy.js and paste the following code. I've included the comments that come out of the box with Hardhat but we will also go through this line by line.
 
 ```javascript
 // We require the Hardhat Runtime Environment explicitly here. This is optional
@@ -58,7 +58,7 @@ main()
 
 ```
 
-I'll be only focusing on these 4 lines since the rest is self-explanatory and the hardhat comments do a great job explaining it.
+I'll be only focusing on these 4 lines since the rest is self-explanatory and the Hardhat comments do a great job explaining it.
 
 ```javascript
   const [owner] = await hre.ethers.getSigners();
@@ -88,7 +88,7 @@ Finally we use `deployed()` to deploy to the actual blockchain of our choice. In
 
 ------
 
-After you copy and paste the code into deploy.js, run the following to deploy to the Rinkeby test network. If you're interested in deploying on a local hardhat node you can read more about that [here](https://hardhat.org/guides/deploying.html#deploying-your-contracts).
+After you copy and paste the code into deploy.js, run the following to deploy to the Rinkeby test network. If you're interested in deploying on a local Hardhat node you can read more about that [here](https://hardhat.org/guides/deploying.html#deploying-your-contracts).
 
 ```
 npx hardhat run scripts/deploy.js --network rinkeby
@@ -101,7 +101,7 @@ BankContract deployed to: 0x8DA9151adD3070fAc7c887B1f6FadA58CC2a12c5
 BankContract owner address: 0x2C9e104F0966CA8AD51a228C236f32Da9783EAff
 ```
 
-Well done 🥳 Your smart contract is now live on the Ethereum testnet. You can view it on the Rinkeby Etherscan [here](https://rinkeby.etherscan.io/) by dropping in the address of your contract. Notice it costs us a transaction fee (Txn fee). If you want to see your contract code on the blockchain, click contract (located next to transactions on the bottom left), then click decompile byte code. Currently you may have to wait north of an hour to see the actual code of your contract.
+Well done 🥳 Your smart contract is now live on the Ethereum testnet. You can view it on the Rinkeby Etherscan [here](https://rinkeby.etherscan.io/) by dropping in the address of your contract. Notice it costs us a transaction fee (Txn fee). If you want to see your contract code on the blockchain, click contract (located next to transactions on the bottom left), then click decompile byte code. Currently you may have to wait more than an hour to see the actual code of your contract.
 
 In the upcoming lessons we will be building our front-end to interact with our smart contract.
 
