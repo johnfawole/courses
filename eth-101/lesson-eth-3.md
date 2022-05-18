@@ -4,7 +4,7 @@ Think of a smart contract as code that gets executed on the Ethereum blockchain 
 
 > A contract in the sense of Solidity is a collection of code (its *functions*) and data (its *state*) that resides at a specific address on the Ethereum blockchain. [-Solidity Documention](https://docs.soliditylang.org/en/v0.8.9/introduction-to-smart-contracts.html) 
 
-Keep this definition in mind as we progress, particulary state and functions. Smart Contracts can facilitate the creation of a new Token, an NFT, and has allowed for new industries to emerge like [DeFi](https://ethereum.org/en/defi/).
+Keep this definition in mind as we progress, particulary state and functions. Smart Contracts can facilitate the creation of a new Token, an NFT, and have allowed for new industries to emerge like [DeFi](https://ethereum.org/en/defi/).
 
 ### Creating Your first Smart Contract
 
@@ -14,7 +14,7 @@ Let’s create a file and call it HelloWorld.sol in the contracts folder. We’r
 
 🚨 Tip: Closing your statements with a semicolon is required in Solidity.🚨
 
-In line one we specify the license for our code. You can read more about the SPDX standard [here](https://spdx.dev/ids/). Then we definite the version of Solidity that we will be using in line two.
+In line one we specify the license for our code. You can read more about the SPDX standard [here](https://spdx.dev/ids/). Then we define the version of Solidity that we will be using in line two.
 
 ```solidity
 // SPDX-License-Identifier: MIT*
@@ -40,7 +40,7 @@ Now it's time to run our smart contract! Save your contract which will allow it 
 
 For environment select "Injected Web3", then towards the button in the Contract section, select the contract you created, "HelloWorld.sol". Note sometimes there can be a lag if you don't see your contract. 
 
-Before we go to the final steps, click on your MetaMask Wallet and towards the top center where it might say Ethereum Mainnet, click on that which will prompt a drop down menu. Then select Rinkeby Test Network, which will be our test next work moving forward. 
+Before we go to the final steps, click on your MetaMask Wallet and towards the top center where it might say Ethereum Mainnet, click on that which will prompt a drop down menu. Then select Rinkeby Test Network, which will be our test network moving forward. 
 
 Next click **Deploy** in Remix which will prompt MetaMask to open up. Notice it will cost you some gas for this transaction. Every action in Ethereum is considered a transaction. Thankfully we’re using fake Ether so it won’t cost you anything. If you don't have fake Ether, be sure to get some fake from a faucet. 
 

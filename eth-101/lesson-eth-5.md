@@ -3,7 +3,7 @@
 
 ### Mindset
 
-One of the most important shifts in mindset when developing on the Ethereum blockchain is always thinking about gas and security as you code. Get into the mindset of what you write in your code will cost gas. Double check your code for overflows, underflows, and read, write, ownership permissions. These mistakes can be extremely costly. Loops are generally avoided and rarely used, maps are favored over arrays for faster lookup times that cost less gas. 
+One of the most important shifts in mindset when developing on the Ethereum blockchain is always thinking about gas and security as you code. Get into the mindset of what you write in your code will cost gas. Double-check your code for overflows, underflows, and read, write, ownership permissions. These mistakes can be extremely costly. Loops are generally avoided and rarely used, maps are favored over arrays for faster lookup times that cost less gas. 
 
 Note: This tutorial may seem lengthy but that's because of the code blocks.
 
@@ -110,7 +110,7 @@ Solidity has local, state, and global variables. State variables are stored on t
 
 We're going to declare our variables `bankOwner` and `bankName` at the contract level which makes them state variables. We use the `address` keyword when we want to store an Ethereum address, in this case the address of our bank owner. 
 
-Then we define another variable for our bank name with the type of `string`. Notice that these variables are both defined out side of any functions and both have a `public` keyword (visibility modifier). The `public` keyword will allow anyone to access these variables, automatically creating a getter for us which will come in handy for our front-end. Other visibility modifiers include private, internal, and external.
+Then we define another variable for our bank name with the type of `string`. Notice that these variables are both defined outside of any functions and both have a `public` keyword (visibility modifier). The `public` keyword will allow anyone to access these variables, automatically creating a getter for us which will come in handy for our front-end. Other visibility modifiers include private, internal, and external.
 
 ```solidity
 // SPDX-License-Identifier: GPL-3.0
@@ -250,7 +250,7 @@ We declared the state variable `bankName` earlier in our code, now we want to se
 
 Notice that the function parameter `name` starts with an `_` (underscore). This isn't required but has become a convention, to distinguish parameters from other variables. Parameters are also temporarily stored in memory.
 
-I am also being explicit for demonstration purposes by ensuring `_name` is stored in memory. Lastly we do a check so that only the address of the bank owner can change the bank name (this is why we stored it in a permanent state variable earlier). Then lastly we assign the new bank name to the `bankName` variable. You may be wondering, well how do we get the `bankName`? A getter for the variable is already created for us when we initilaize the variable and made it public.
+I am also being explicit for demonstration purposes by ensuring `_name` is stored in memory. Lastly we do a check so that only the address of the bank owner can change the bank name (this is why we stored it in a permanent state variable earlier). Then lastly we assign the new bank name to the `bankName` variable. You may be wondering, well how do we get the `bankName`? A getter for the variable is already created for us when we initialize the variable and made it public.
 
 ```solidity
 function setBankName(string memory _name) external {
@@ -263,7 +263,7 @@ function setBankName(string memory _name) external {
 
 ### **withdrawMoney**()
 
-This is self-explanatory but in short, we check if the balance the customer wants to withdraw is equal or less than their total balance, so they can't over-draw funds. Then we use our mapping to find that customer and deduct the amount they want to withdraw from their balance. Lastly we transfer the money to the customer's address. The transfer function is built into Solidity and transfers money to an address. There are other ways to transfer money but we wanted to be brief for learning purposes. If you're interested in a more secure way, read this [article](https://consensys.net/diligence/blog/2019/09/stop-using-soliditys-transfer-now/).
+This is self-explanatory but in short, we check if the balance the customer wants to withdraw is equal or less than their total balance, so they can't overdraw funds. Then we use our mapping to find that customer and deduct the amount they want to withdraw from their balance. Lastly we transfer the money to the customer's address. The transfer function is built into Solidity and transfers money to an address. There are other ways to transfer money but we wanted to be brief for learning purposes. If you're interested in a more secure way, read this [article](https://consensys.net/diligence/blog/2019/09/stop-using-soliditys-transfer-now/).
 
 ```solidity
     function withdrawMoney(address payable _to, uint256 _total) public {
@@ -305,6 +305,6 @@ Deploy your contract to remix and experiment with it. Play around with the gette
 
 Be sure you understand the concepts presented here before moving on to the next lessons. Challenge yourself by re-writing the contract again and then explain it to another developer line by line what's occurring. One of the fastest ways to learn is teaching. 
 
-There's one huge vulnerbility in our code. Have you spot what it is? What if the bank owner is secretly a thief and can just disappear with all our funds? This happens more often than we think in web3 and is often referred to "pulling the rug". In fact $7.7 billion dollars were lost to these type of scams in [2021](https://indianexpress.com/article/technology/crypto/rug-pull-cryptocurrency-scam-costed-investors-over-7-7-billion-in-2021-chainalysis-7677725/#:~:text=A%20rug%20pull%20is%20a,run%20away%20with%20investors'%20funds.). 
+There's one huge vulnerability in our code. Have you spotted what it is? What if the bank owner is secretly a thief and can just disappear with all our funds? This happens more often than we think in web3 and is often referred to "pulling the rug". In fact $7.7 billion dollars were lost to these type of scams in [2021](https://indianexpress.com/article/technology/crypto/rug-pull-cryptocurrency-scam-costed-investors-over-7-7-billion-in-2021-chainalysis-7677725/#:~:text=A%20rug%20pull%20is%20a,run%20away%20with%20investors'%20funds.). 
 
 This has given rise to third party contract auditors like OpenZeppelin, Quantstamp, and ConsenSys Diligence. You may start to see why we need a trustless system like the blockchain now, where we don't need to rely on any one party to manage our funds.

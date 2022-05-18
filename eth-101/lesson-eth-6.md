@@ -2,7 +2,7 @@
 
 As a smart contract developer we need to compile, test, debug, and deploy our contracts. Then we need a front-end library to help us interact with our smart contract. There are many development frameworks and front-end libraries that help us with this, the most popular being truffle and web3.js. 
 
-While truffle and web3.js are used in many projects today, more and more developers are switching over to hardhat and ethers.js for smart contract development so we will be using this stack moving forward. We still recommend playing around with truffle and web3.js. There are even SDKs out there that abstract away the complexity of developing contracts so you can write everything in just JavaScript, but it's important to learn the basics first.
+While truffle and web3.js are used in many projects today, more and more developers are switching over to Hardhat and ethers.js for smart contract development so we will be using this stack moving forward. We still recommend playing around with truffle and web3.js. There are even SDKs out there that abstract away the complexity of developing contracts so you can write everything in just JavaScript, but it's important to learn the basics first.
 
 If you have a Python background, check out [Brownie](https://eth-brownie.readthedocs.io/en/stable/).
 
@@ -11,7 +11,7 @@ If you have a Python background, check out [Brownie](https://eth-brownie.readthe
 We also need an end point to test our contracts and broadcast our contract interactions. We will be using [POKT](https://www.pokt.network/) to broadcast our transactions to the ethereum rinkeby testnet since it is the closest decentralized solution out there and the leading node provider. [Infura and Alchemy](https://docs.pokt.network/home/resources/faq/product-comparisons#centralized-apis-e.g.-infura-or-alchemy) are centralized providers that broadcast your transactions through their own centralized API and hardware.
 
 
-**Note:** This lesson will be lengthy so set aside 20mins-30mins. Feel free to take breaks in between.
+**Note:** This lesson will be lengthy so set aside 20-30 mins. Feel free to take breaks in between.
 
 ### Setting Up Hardhat 👷🏾‍♀️
 
@@ -19,7 +19,7 @@ Hardhat is a suite of tools that allow us to build, debug, and deploy our smart 
 
 If you would like to get a head start you can use the official Hardhat [documentation](https://hardhat.org/getting-started/) to install Hardhat. Let's get started.
 
-1. First make sure you have node version 12 or above and npm installed. Then install hardhat.
+1. First make sure you have node version 12 or above and npm installed. Then install Hardhat.
 
 ```bash
 node --version
@@ -28,7 +28,7 @@ npm --version
 
 If you don't have node you can find the installaiton guides for Windows, macOS, and Linux [here](https://nodejs.org/en/download/).
 
-2. Make a directory for our project called bank-smartcontract and cd into it. Then initalize npm for our project and install hardhat. We're installing dotenv to store our project's environment variables.
+2. Make a directory for our project called bank-smartcontract and cd into it. Then initalize npm for our project and install Hardhat. We're installing dotenv to store our project's environment variables.
 
 ```bash
 mkdir bank-smartcontract
@@ -38,7 +38,7 @@ npm install dotenv
 npm install --save-dev hardhat
 ```
 
-3. Next run the following command to initialize a hardhat project and then choose the first option `Create a sample project`
+3. Next run the following command to initialize a Hardhat project and then choose the first option `Create a sample project`
 
 ```bash
 npx hardhat
@@ -70,7 +70,7 @@ Let's check out the folder structure from Hardhat. `contracts` will be where our
 
 6. Delete `Greeter.sol` from the contracts folder, delete `sample-script.js` from scripts, and `sample-test.js` from the test folder. 
 
-We're almost at the finish line. We're now going to setup our hardhat config and our environment variables.
+We're almost at the finish line. We're now going to setup our Hardhat config and our environment variables.
 
 7. Go into hardhat.config.js delete everything and paste the following in and save:
 
@@ -89,7 +89,7 @@ module.exports = {
 };
 ```
 
-This is straight forward, we're using solidity 8.0, the rinkeby test network, the url property is an Ethereum node which we will be using Alchemy for (more on this later) and in accounts will be the private key of an Ethereum account (more on this later).
+This is straightforward, we're using solidity 8.0, the rinkeby test network, the url property is an Ethereum node which we will be using Alchemy for (more on this later) and in accounts will be the private key of an Ethereum account (more on this later).
 
 We can access these enviroment globally using the following line of code:
 
@@ -99,7 +99,7 @@ require('dotenv').config();
 
 **🚨 SECURITY ALERT 🚨**
 
-Before we proceed, create a metamask account that will only be used for this course as your private key will be needed to sign transactions. Anyone who has your private key can steal all funds from your wallet, hence why we're using dotenv to store our private keys.
+Before we proceed, create a MetaMask account that will only be used for this course as your private key will be needed to sign transactions. Anyone who has your private key can steal all funds from your wallet, hence why we're using dotenv to store our private keys.
 
 8. Now we're going to setup our enviromment variables. Create a file called `.env` in the root of our project folder and paste the following in:
 
@@ -108,13 +108,13 @@ POKT_RINKEBY_URL=YOUR_POKT_RINKEBY_URL
 RINKEBY_PRIVATE_KEY=YOUR_PRIVATE_KEY
 ```
 
-Switch your Metamask to the Rinkeby Testnet and paste in your private key. [Here's](https://metamask.zendesk.com/hc/en-us/articles/360015289632-How-to-Export-an-Account-Private-Key) how you can get your private key. Again make this a throw-away account that will never be used for real transactions. We will need the private key to sign our transactions, deploy and make function calls to our contract.
+Switch your MetaMask to the Rinkeby Testnet and paste in your private key. [Here's](https://metamask.zendesk.com/hc/en-us/articles/360015289632-How-to-Export-an-Account-Private-Key) how you can get your private key. Again make this a throwaway account that will never be used for real transactions. We will need the private key to sign our transactions, deploy and make function calls to our contract.
 
 ### Setting up POKT 🧙🏽‍♀️ 
 
-Next we need an Ethereum node to broadcast our contract transaction to the blockchain so miners can pick it up, mine it, and store it on the blockchain. For this we will be using [POKT](https://mainnet.portal.pokt.network/#/signup). Head over here and sign up for an account and verify your email. Below is a video walk through of how to setup your end point with POKT.
+Next we need an Ethereum node to broadcast our contract transaction to the blockchain so miners can pick it up, mine it, and store it on the blockchain. For this we will be using [POKT](https://mainnet.portal.pokt.network/#/signup). Head over there and sign up for an account and verify your email. Below is a video walk through of how to set up your end point with POKT.
 
-1. Create an app and choose Ethereum Rinkeby for your chain, give your app a name and click launch app. Give it sometime to bootup.
+1. Create an app and choose Ethereum Rinkeby for your chain, give your app a name and click launch app. Give it some time to bootup.
 2. Click app security, then in approved chains make sure to select Ethereum Rinkeby and hit save changes.
 3. Copy and paste your HTTP end point key into the `POKT_RINKEBY_URL` section. Save your .env file.
 
