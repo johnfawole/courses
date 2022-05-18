@@ -168,6 +168,15 @@
       "contributions": [
         "bug"
       ]
+    },
+    {
+      "login": "AVAIDN",
+      "name": "Mikail B.",
+      "avatar_url": "https://avatars.githubusercontent.com/u/47790579?v=4",
+      "profile": "https://linktr.ee/AVAIDN",
+      "contributions": [
+        "bug"
+      ]
     }
   ],
   "contributorsPerLine": 7,
