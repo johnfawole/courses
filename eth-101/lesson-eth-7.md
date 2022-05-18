@@ -9,7 +9,13 @@ Now that we're all setup let's deploy our bank contract to the Rinkeby network. 
 npx hardhat compile
 ```
 
-You should see `Compilation finished successfully`. If it doesn't compile for some reason, run the following command and compile again. [Here's](https://hardhat.org/guides/compile-contracts.html) the official Hardhat documentation on compiling.
+
+You should see `Compilation finished successfully`. If you don't for some reason run this command and then compile again.
+
+If you still cannot compile successfully, try installing this npm package: `npm install glob@7.2.0` Compile again after the installation.
+
+ [Here's](https://hardhat.org/guides/compile-contracts.html) the official Hardhat documentation on compiling.
+
 
 ```
 npx hardhat clean
