@@ -11,7 +11,7 @@ Our main goal is to get to done. If you’re stuck, you have our permission to c
 
 There are numerous sophisticated attempts to hack, phish and steal crypto currencies since there is no central authority to over see the blockchain and you cannot undo any transaction. 
 
-**Double check** all urls, even the urls you click through searching on Google to make sure they are accurate. Never share your seed and private keys with anyone and make sure to back them up in multiple secure places. 
+**Double-check** all urls, even the urls you click through searching on Google to make sure they are accurate. Never share your seed and private keys with anyone and make sure to back them up in multiple secure places. 
 
 A good rule of thumb is not to trust anyone in the MetaVerse, impersonation is a common mechanism for theft. Always triple check links and wallets you send digital assets to and do not store any credentials in your main code base that is pushed to GitHub. We will be using [dotenv](https://www.npmjs.com/package/dotenv) to store our credentials locally only. 
 
@@ -22,12 +22,12 @@ A good rule of thumb is not to trust anyone in the MetaVerse, impersonation is a
 
 To get started you will need a wallet. Your wallet will act as your login to access the Ethereum network. Your public key is like your username and your private key is like your password. 
 
-We recommend using [MetaMask](https://metamask.io/). Please store your seed and private keys in a secure place. Create a test account just for this project. We will be using the Rinkeby Test Network, which is a test-network that mimics the the functionality of the real network. This allows us to use Fake Ether as well.
+We recommend using [MetaMask](https://metamask.io/). Please store your seed and private keys in a secure place. Create a test account just for this project. We will be using the Rinkeby Test Network, which is a test-network that mimics the functionality of the real network. This allows us to use Fake Ether as well.
 
 Click on the fox icon in your browser, then click Ethereum Mainnet located at the top center, then in the drop down menu click Rinkeby Test Network. 
 (If you dont find Rinkeby Test Network in the dropdown menu, go to settings => advanced => then switch on the 'show test networks' button. Hopefully the Rinkeby Test Network will showup along with other test networks).
 
-Next you will need send your self some fake Ether via what’s known as a faucet. Here are a list of faucets, again double check these as sometimes the faucets are out of fake ether.
+Next you will need send your self some fake Ether via what’s known as a faucet. Here are a list of faucets, again double-check these as sometimes the faucets are out of fake ether.
 
 - RBF: https://www.rinkebyfaucet.com/
 - MyCrypto: https://app.mycrypto.com/faucet

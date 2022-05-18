@@ -48,7 +48,7 @@ Now let's jump into the first 3 lines. In our first line we're pulling some hook
 Here are the steps to import the JSON version of your contract from Hardhat to your React app: 
 
 1. Create a folder called `contracts` in your react project `src` folder in your React App.
-1. Copy and paste over your Bank.json file from our **smart contract lesson in our hardhat project.** The file is found in `./artifacts/contracts/Bank.sol/Bank.json`. It's commonly referred to as an Application Binary Interface (ABI) file and contains a JSON version of our contract that we can interface with.
+1. Copy and paste over your Bank.json file from our **smart contract lesson in our Hardhat project.** The file is found in `./artifacts/contracts/Bank.sol/Bank.json`. It's commonly referred to as an Application Binary Interface (ABI) file and contains a JSON version of our contract that we can interface with.
 2. Import your ABI file into your project using `import abi from "./contracts/Bank.json";` This line goes at the top of your App.js file. 
 
 I'm going to briefly explain what's happening here. The first item in the array is a state variable we use to store values we reference later using the React `useState()` [hook](https://reactjs.org/docs/hooks-state.html). The second item is a function that lets us change our state. The parameters of the `useState()` function are our default values, ie. our wallet connection status is set to false by default.
