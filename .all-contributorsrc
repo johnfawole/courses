@@ -159,6 +159,15 @@
       "contributions": [
         "bug"
       ]
+    },
+    {
+      "login": "kilyig",
+      "name": "Yiğit Kılıçoğlu",
+      "avatar_url": "https://avatars.githubusercontent.com/u/22952457?v=4",
+      "profile": "http://yigitkilicoglu.com",
+      "contributions": [
+        "bug"
+      ]
     }
   ],
   "contributorsPerLine": 7,
