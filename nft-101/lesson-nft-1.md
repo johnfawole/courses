@@ -1,5 +1,4 @@
 
-
 # What are NFTs?
 
 NFTs(Non-fungible Token) have taken the world by storm, hitting $25 billion dollar sales in 2021. So what is an NFT and problems do they solve?
@@ -17,6 +16,14 @@ The Ethereum blockchain allowed for smart contracts (think of this as a contract
 Meet the ERC-721 standard which launched in 2017. This standard allowed for the creating of "none-fungible" tokens, meaning there can only be a one of a kind version of a token with a unique set of properties and attributes. Let's take for instance we're creating an NFT of a video game character. This characters metadata can include the url to where the JPEG file is stored of the character, the name of the character, any special attributes and properties like how many lives does this character have, can this character only use certain items in the game, etc. Cryptokittens was one of the early projects to adopt the standard for their virtual cats.
 
 In 2022 another standard was introduced caleled [ERC-721A]([url](https://www.azuki.com/erc721a)) by the Azuki Development Team. ERC-721A allows you to batchment a collection of NFTs and save on gas fees.
+
+
+
+| Standards | Use Case                                                     |
+| --------- | ------------------------------------------------------------ |
+| ERC-20    | Used for fungible tokens like crypto currencies where they can be many of the same tokens that share the same attributes. |
+| ERC-721   | Mint none-fungible tokens like digital art work, items that require proof of ownership or are one of one. |
+| ERC-721A  | Batch mint a collection of none-fungible tokens to save on gas fees. |
 
 Its a common misconception that NFTs can only be JPEGs, they can be any digital file you attach to them and even be paired with real world objects. In fact the NFT standard just holds the meta data which  properties, and attributes of a collection on the blockchain or "on chain". So what is commonly reffered to as an "NFT" is really just an item's metadata stored on the blockchain following the ERC-721 standard that ensures the item is unique. This metadata can have different combinations that can be used to generate new characters on the fly to form an entire collection.
 
@@ -113,4 +120,3 @@ Let's look at the meta data of what actually is in the json file:
 ```
 
 So is an NFT just meta data in a JSON file with a unique ID that gets verified on chain that some how is valued in hundreds of thousands dollars 😲? Let us know what you think in the discord or you can tag us on twitter @cadenadev 🤔
-
