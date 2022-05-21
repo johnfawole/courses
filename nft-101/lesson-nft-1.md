@@ -24,6 +24,7 @@ In 2022 another standard was introduced caleled [ERC-721A]([url](https://www.azu
 | ERC-20    | Used for fungible tokens like crypto currencies where they can be many of the same tokens that share the same attributes. |
 | ERC-721   | Mint none-fungible tokens like digital art work, items that require proof of ownership or are one of one. |
 | ERC-721A  | Batch mint a collection of none-fungible tokens to save on gas fees. |
+| ERC-721R  | This [standard]([url](https://erc721r.org/)) is fairly new and allows the ability for NFT purchasers to ask for a refund that includes the cost of minting within a certain time period.|
 | ERC-1155  | A way to batch both fungible and none-fungible tokens together in the same contract. Think a video game where there's a token as well as characters that can be bought as an NFT with those tokens.|
 
 Its a common misconception that NFTs can only be JPEGs, they can be any digital file you attach to them and even be paired with real world objects. In fact the NFT standard just holds the meta data which  properties, and attributes of a collection on the blockchain or "on chain". So what is commonly reffered to as an "NFT" is really just an item's metadata stored on the blockchain following the ERC-721 standard that ensures the item is unique. This metadata can have different combinations that can be used to generate new characters on the fly to form an entire collection.
