@@ -297,7 +297,7 @@ To get the balance we're calling the getCustomerBalance() function in our smart 
 
 We're depositing money into our contract. As usual with a transaction function it will cost gas but notice on line 9 we're using the `utils.parseEther()` function to convert our Eth back into wei for our smart contract. After the transaction is completed we call our `customerBalanceHandler()` to update the balance of our account.
 
-🚨Note: Test with small amouts of Eth (0.01) in the event you get an error regarding not having enough for gas.🚨
+🚨Note: Test with small amounts of Eth (0.01) in the event you get an error regarding not having enough for gas.🚨
 
 
 
