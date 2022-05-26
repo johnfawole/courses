@@ -315,7 +315,7 @@ We're depositing money into our contract. As usual with a transaction function i
         let myAddress = await signer.getAddress()
         console.log("provider signer...", myAddress);
 
-        const txn = await bankContract.withDrawMoney(myAddress, ethers.utils.parseEther(inputValue.withdraw));
+        const txn = await bankContract.withdrawMoney(myAddress, ethers.utils.parseEther(inputValue.withdraw));
         console.log("Withdrawing money...");
         await txn.wait();
         console.log("Money with drew...done", txn.hash);
