@@ -195,6 +195,15 @@
       "contributions": [
         "bug"
       ]
+    },
+    {
+      "login": "tosayev",
+      "name": "Kazim Tosayev",
+      "avatar_url": "https://avatars.githubusercontent.com/u/106172091?v=4",
+      "profile": "http://tosayev.com",
+      "contributions": [
+        "bug"
+      ]
     }
   ],
   "contributorsPerLine": 7,
