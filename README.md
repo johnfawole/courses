@@ -1,6 +1,6 @@
 See a typo or think you can explain a concept better?You're welcome to work and make edits to our material. 
 <!-- ALL-CONTRIBUTORS-BADGE:START - Do not remove or modify this section -->
-[![All Contributors](https://img.shields.io/badge/all_contributors-21-orange.svg?style=flat-square)](#contributors-)
+[![All Contributors](https://img.shields.io/badge/all_contributors-22-orange.svg?style=flat-square)](#contributors-)
 <!-- ALL-CONTRIBUTORS-BADGE:END -->
 
 
@@ -38,6 +38,9 @@ Thanks goes to these wonderful people ([emoji key](https://allcontributors.org/d
     <td align="center"><a href="https://linktr.ee/AVAIDN"><img src="https://avatars.githubusercontent.com/u/47790579?v=4?s=100" width="100px;" alt=""/><br /><sub><b>Mikail B.</b></sub></a><br /><a href="https://github.com/CadenaDev/courses/issues?q=author%3AAVAIDN" title="Bug reports">🐛</a></td>
     <td align="center"><a href="https://donnc.github.io/"><img src="https://avatars.githubusercontent.com/u/47761288?v=4?s=100" width="100px;" alt=""/><br /><sub><b>Donald Chinhuru</b></sub></a><br /><a href="https://github.com/CadenaDev/courses/issues?q=author%3ADonnC" title="Bug reports">🐛</a></td>
     <td align="center"><a href="https://devlongs.github.io/"><img src="https://avatars.githubusercontent.com/u/60902874?v=4?s=100" width="100px;" alt=""/><br /><sub><b>Longs Pemun Gotar</b></sub></a><br /><a href="https://github.com/CadenaDev/courses/issues?q=author%3Adevlongs" title="Bug reports">🐛</a></td>
+  </tr>
+  <tr>
+    <td align="center"><a href="http://tosayev.com"><img src="https://avatars.githubusercontent.com/u/106172091?v=4?s=100" width="100px;" alt=""/><br /><sub><b>Kazim Tosayev</b></sub></a><br /><a href="https://github.com/CadenaDev/courses/issues?q=author%3Atosayev" title="Bug reports">🐛</a></td>
   </tr>
 </table>
 
