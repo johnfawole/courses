@@ -8,7 +8,7 @@ In this course you will learn how to build dapps, smart contracts, and deploy th
 
 Upon review, you will then recieve an NFT Certificate that can be added to your LinkedIn or Resume. 
 
-🔑 Coding experience is required, the key is to push through the lessons to learn the big picture concepts and you will pick up languages like Solidity as you build.
+🔑 Coding experience is required. The key is to push through the lessons to learn the big picture concepts and you will pick up languages like Solidity as you build.
 
 ### What's the Ethereum Blockchain? 
 
