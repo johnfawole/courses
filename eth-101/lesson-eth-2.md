@@ -15,6 +15,7 @@ There are numerous sophisticated attempts to hack, phish and steal crypto curren
 A good rule of thumb is not to trust anyone in the MetaVerse, impersonation is a common mechanism for theft. Always triple check links and wallets you send digital assets to and do not store any credentials in your main code base that is pushed to GitHub. We will be using [dotenv](https://www.npmjs.com/package/dotenv) to store our credentials locally only. 
 
 ## Prerequisites
+To move through this course you will need to setup a wallet, have a mid-level understanding of a coding language, and then pick up Solidity as we move thhrough the course. 
 
 ## Wallets
 
