@@ -71,7 +71,7 @@ Here’s a cheat sheet to speed up your learning:
 - CryptoZombies is another amazing resource to pick up Solidity as well: https://cryptozombies.io
 
 ***
-## JavaScript** 
+## JavaScript
 
 You’ll need to have an intermediate understanding of JavaScript or another programming language to get through this tutorial. If you are new to coding, we recommend learning a coding language like JavaScript or Python first. We will be using some Javascript libraries like Ethers.js to interact with our smart contract. 
 
