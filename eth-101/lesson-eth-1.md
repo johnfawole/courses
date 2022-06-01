@@ -2,9 +2,13 @@
 
 ### How this course works?
 
-In this course you will learn how to build dapps, smart contracts, and deploy them to the Ethereum Blockchain. This course can be completed over a weekend and includes 3 projects that you can add to your portfolio. **In order to qualify for an NFT Certificate you need to submit *one of these 3* projects for review**. Upon review, you will then recieve an NFT Certificate that can be added to your LinkedIn or Resume. 
+In this course you will learn how to build dapps, smart contracts, and deploy them to the Ethereum Blockchain. This course can be completed over a weekend and includes 3 projects that you can add to your portfolio. **In order to qualify for an NFT Certificate you will have two options:**
+1. **Submit Project 1 (your own smart contract and a dapp that interacts with it) & Project 2 (your own meme coin and a dapp that interacts with it).**
+2. **Submit Project 3 (a dapp of your choice).**
 
-🔑 Coding experience is required, the key is to push through the lessons to learn the big picture concepts and you will pick up languages like Solidity as you build.
+Upon review, you will then recieve an NFT Certificate that can be added to your LinkedIn or Resume. 
+
+🔑 Coding experience is required. The key is to push through the lessons to learn the big picture concepts and you will pick up languages like Solidity as you build.
 
 ### What's the Ethereum Blockchain? 
 
