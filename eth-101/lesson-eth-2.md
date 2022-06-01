@@ -22,12 +22,35 @@ A good rule of thumb is not to trust anyone in the MetaVerse, impersonation is a
 
 To get started you will need a wallet. Your wallet will act as your login to access the Ethereum network. Your public key is like your username and your private key is like your password. 
 
-We recommend using [MetaMask](https://metamask.io/). Please store your seed and private keys in a secure place. Create a test account just for this project. We will be using the Rinkeby Test Network, which is a test-network that mimics the functionality of the real network. This allows us to use Fake Ether as well.
+Steps to Setup Your Wallet
+1. Download and Install MetaMask from the official website.
+2. Switch your network over to the Rinkeby testnet
+3. Deposit some fake ether.
+4. Share your wallet address in our discord #general channel
 
+### Step 1: Installing your MetaMask Wallet
+
+We will be using [MetaMask](https://metamask.io/) for our tutorials so download and install metamask from their official website which is [www.metamask.io](www.metamask.io). Double check the URLs as there are many fake websites for MetaMask. Please store your seed and private keys in a secure place. 
+
+### Step 2: Using the Rinkeby Testnetwork
+
+Once you have your wallet installed. We will be switching off of the main ethereum network to a test network. A test-network mimics the functionality of the real network so that we can deploy and test our smart contracts with out wasting real money on gas. For our tutorials we will be using the Rinkeby test Network. 
+
+To switch to the Rinkeby test network, do the following:
+1. Go to the following url and click Connect Wallet: https://chainlist.org/chain/4
+
+If this doesn't work you can do the following:
+1. Go to [Chainlist.org](https://chainlist.org), click testnets located in the top middle of the website. 
+2. Type in Rinkeby
+3. Click Connect Wallet.
+
+### The Manual Way to Connect
 Click on the fox icon in your browser, then click Ethereum Mainnet located at the top center, then in the drop down menu click Rinkeby Test Network. 
 (If you dont find Rinkeby Test Network in the dropdown menu, go to settings => advanced => then switch on the 'show test networks' button. Hopefully the Rinkeby Test Network will showup along with other test networks).
 
-Next you will need send your self some fake Ether via what’s known as a faucet. Here are a list of faucets, again double-check these as sometimes the faucets are out of fake ether.
+#### Step 3: Deposit Some Fake Ether
+
+Next you will need send your self some fake Ether via what’s known as a faucet. Here are a list of faucets, again double-check these as sometimes the faucets are out of fake ether. We recommend using RBF.
 
 - RBF: https://www.rinkebyfaucet.com/
 - MyCrypto: https://app.mycrypto.com/faucet
@@ -35,6 +58,9 @@ Next you will need send your self some fake Ether via what’s known as a faucet
 - MetaMask: https://faucet.metamask.io
 - Chainlink: https://faucets.chain.link/rinkeby
 - You can ask us in the discord if you run out of fake Ether.
+
+### Step 4: Share Your Success
+Congrats🎉 Share with us your public wallet address [#general](https://discord.gg/UQayXxzazc) channel in our discord so we can celebrate along with you or feel free to tweet about it and tag us at [@cadenadev.](https://twitter.com/cadenadev) 
 
 **Solidity** 
 
