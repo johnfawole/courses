@@ -7,7 +7,6 @@ Avoid getting stuck and going down rabbit holes. One of your goals should be to 
 Our main goal is to get to done. If you’re stuck, you have our permission to copy and paste the sample code just so that you can move on to the next lesson and get to done. 
 
 ## A Note on Security 🚨
-***
 
 There are numerous sophisticated attempts to hack, phish and steal crypto currencies since there is no central authority to over see the blockchain and you cannot undo any transaction. 
 
@@ -16,7 +15,6 @@ There are numerous sophisticated attempts to hack, phish and steal crypto curren
 A good rule of thumb is not to trust anyone in the MetaVerse, impersonation is a common mechanism for theft. Always triple check links and wallets you send digital assets to and do not store any credentials in your main code base that is pushed to GitHub. We will be using [dotenv](https://www.npmjs.com/package/dotenv) to store our credentials locally only. 
 
 ## Prerequisites
-***
 
 ***
 ## Wallets
