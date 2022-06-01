@@ -16,7 +16,6 @@ A good rule of thumb is not to trust anyone in the MetaVerse, impersonation is a
 
 ## Prerequisites
 
-***
 ## Wallets
 
 To get started you will need a wallet. Your wallet will act as your login to access the Ethereum network. Your public key is like your username and your private key is like your password. 
