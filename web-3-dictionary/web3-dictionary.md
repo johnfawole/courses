@@ -58,7 +58,7 @@ It is important that we understand the basic terminology from the world of crypt
 
 **INO** : Initial NFT Offering.
 
-**Launch Pad** : Place where the IDO, ICO, INO 's of various projects taxes place.
+**Launch Pad** : Place where the IDO, ICO, INO 's of various projects takes place.
 
 **Metaverse**: is a shared virtual world where people meet up, buy NFTs, play games, or hang out.  
 
