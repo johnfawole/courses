@@ -213,6 +213,15 @@
       "contributions": [
         "bug"
       ]
+    },
+    {
+      "login": "Licceeee",
+      "name": "Alicia Schonefeld",
+      "avatar_url": "https://avatars.githubusercontent.com/u/57093384?v=4",
+      "profile": "https://tornode.org",
+      "contributions": [
+        "bug"
+      ]
     }
   ],
   "contributorsPerLine": 7,
