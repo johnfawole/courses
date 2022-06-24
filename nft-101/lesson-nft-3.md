@@ -19,7 +19,7 @@ Let's first outline at a high level the steps involved in this lesson.
 5. Step 5: Upload Updated MetaData to Hashlips
 
 Here's the video walk through:
-<iframe width="560" height="315" src="https://www.youtube.com/embed/sZz2JriHvR0" title="YouTube video player" frameborder="0" allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture" allowfullscreen></iframe>
+<iframe width="100%" height="515" src="https://www.youtube.com/embed/sZz2JriHvR0" title="YouTube video player" frameborder="0" allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture" allowfullscreen></iframe>
 
 ## Download and install our fork of the Hashlips Library 
 
