@@ -47,7 +47,7 @@ You can see if your NFT's have been minted by viewing them on the Rarible or Ope
 
 ### Earning your NFT Certificate 
 
-To earn your NFT Certificate, create a minter dapp with your own unique art work and share in the #showcase channel. Your dapp must include the following components:
+To earn your NFT Certificate, create a minter dapp with your own unique art work and share in the #showcase channel or tag us on twitter at @cadenadev for a shoutout. Your dapp must include the following components:
 
 1. An ERC-721 smart contract.
 2. Your own unique art. Get creative here, you can use your favorite colors, shapes, textures, photos, and combinations you like.
@@ -55,5 +55,5 @@ To earn your NFT Certificate, create a minter dapp with your own unique art work
 
 **Submitting Your Project**
 
-Send us your live project url, github repo and once approved we will issue you an NFT Certificate. 
+Email us at team@cadena.dev with your live project url, github repo and once approved we will issue you an NFT Certificate. 
 
