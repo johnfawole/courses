@@ -18,6 +18,9 @@ Let's first outline at a high level the steps involved in this lesson.
 4. Step 4: Take CID from Pinata and add it to the metadata in HashLips 
 5. Step 5: Upload Updated MetaData to Hashlips
 
+Here's the video walk through:
+<iframe width="560" height="315" src="https://www.youtube.com/embed/sZz2JriHvR0" title="YouTube video player" frameborder="0" allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture" allowfullscreen></iframe>
+
 ## Download and install our fork of the Hashlips Library 
 
 We've simplified the setup of the hashlips library so you can get setup faster, after this tutorial feel free to play around with the main library. 
@@ -40,19 +43,19 @@ Follow this video for all 5 steps.
 
 ### Files and Folder Structure 📂
 
-| Folders/Files  |                                                              |
-| -------------- | ------------------------------------------------------------ |
+| Folders/Files  |                                                                                                                                                                                                                                                                                                                           |
+| -------------- | ------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------- |
 | /src/config.js | This is one of the main files where we will spend most of our time to configure the metadata of our collection, the layering, and how many pieces of art we want to generate. There are tons of other configurations you can read about [here](https://github.com/HashLips/hashlips_art_engine#usage-%E2%84%B9%EF%B8%8F). |
-| build/images   | This is the out put of the images generated which will be uploading to pinata. |
-| build/json     | This is where the meta data for each image will be stored as well |
-| Layers         | This is where all your layers go, in our case our layers include backgrounds, logos, and planets. |
+| build/images   | This is the out put of the images generated which will be uploading to pinata.                                                                                                                                                                                                                                            |
+| build/json     | This is where the meta data for each image will be stored as well                                                                                                                                                                                                                                                         |
+| Layers         | This is where all your layers go, in our case our layers include backgrounds, logos, and planets.                                                                                                                                                                                                                         |
 
 ### Commands 🛠
 
-| Commands            | What they Do                                                 |
-| ------------------- | ------------------------------------------------------------ |
-| npm install         | Install all the packages needed for the hashlips library     |
-| npm run update_info | update the baseUri                                           |
+| Commands            | What they Do                                                                                     |
+| ------------------- | ------------------------------------------------------------------------------------------------ |
+| npm install         | Install all the packages needed for the hashlips library                                         |
+| npm run update_info | update the baseUri                                                                               |
 | npm run build       | To generate art based on the paramters in your config file and the images in your layers folder. |
 
 
