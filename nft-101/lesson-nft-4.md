@@ -18,6 +18,6 @@ You view the full code for our ERC-721 contract [here](https://gist.github.com/s
 
 ## Setting Up Our ERC-721 Smart Contract
 
-<iframe width="560" height="315" src="https://www.youtube.com/embed/Vebxr0-6moQ" title="YouTube video player" frameborder="0" allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture" allowfullscreen></iframe>
+<iframe width="100%" height="515" src="https://www.youtube.com/embed/Vebxr0-6moQ" title="YouTube video player" frameborder="0" allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture" allowfullscreen></iframe>
 
 <script src="https://gist.github.com/saeedjabbar/ef711176780db78df65ac7ae15d9e3c8.js"></script>

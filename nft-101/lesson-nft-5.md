@@ -10,7 +10,7 @@ Note: IPFS can be slow at times so if you don't see your images load, it can tak
 
 ### Video Walkthrough 
 
-<iframe width="1160" height="653" src="https://www.youtube.com/embed/JXBFrSmYPcQ" title="Creating an NFT Minter DAPP with React" frameborder="0" allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture" allowfullscreen></iframe>
+<iframe width="100%" height="515" src="https://www.youtube.com/embed/JXBFrSmYPcQ" title="Creating an NFT Minter DAPP with React" frameborder="0" allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture" allowfullscreen></iframe>
 
 1. Get your contract address and update it in the contract address variable in the boiler plate.
 
