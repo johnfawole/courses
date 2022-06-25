@@ -9,8 +9,6 @@ In this course we will be learning creating our very own NFTs using generative a
 
 Here's a [link](https://cadena-minter.vercel.app/) to what the final dapp will like and below you can find a screenshot.
 
-
-
 ![Cadena NFT Minter DAPP](https://cadena.dev/wp-content/uploads/2022/06/cadena-dapp-rz.png)
 
 ## Prerequisites 
