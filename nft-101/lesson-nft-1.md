@@ -9,8 +9,7 @@ In this course we will be learning creating our very own NFTs using generative a
 
 Upon finishing this course you can earn this sparkling new NFT Certificate💫
 
-https://user-images.githubusercontent.com/146857/175785068-832796a7-5a76-463a-8bf1-3e73a46e62ec.mp4
-
+<iframe width="337" height="599" src="https://www.youtube.com/embed/MB1cQCJ2hjk" title="Cadena NFT101 Certificate" frameborder="0" allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture" allowfullscreen></iframe>
 
 Here's a [link](https://cadena-minter.vercel.app/) to what the final dapp will like and below you can find a screenshot.
 
@@ -37,24 +36,3 @@ We're going to use the following tools, technologies and libaries:
 You can earn a unique NFT Certificate for completing our NFT 101 course. To do so submit your own NFT Minter project completed with a dapp, smart contract, and your own unique NFT art work to team@cadena.dev with the name you would like on your certificate and your ethereum wallet address.
 
  ➡️ Now Let's get started with learning about what are NFTs in the next lesson!
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
