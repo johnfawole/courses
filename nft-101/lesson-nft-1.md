@@ -7,6 +7,11 @@ In this course we will be learning creating our very own NFTs using generative a
 2. Creating an ERC721 Smart Contract for our NFTs
 3. Creating a DAPP that allows others to mint our NFTs
 
+Upon finishing this course you can earn this sparkling new NFT Certificate💫
+
+https://user-images.githubusercontent.com/146857/175785068-832796a7-5a76-463a-8bf1-3e73a46e62ec.mp4
+
+
 Here's a [link](https://cadena-minter.vercel.app/) to what the final dapp will like and below you can find a screenshot.
 
 ![Cadena NFT Minter DAPP](https://cadena.dev/wp-content/uploads/2022/06/cadena-dapp-rz.png)
