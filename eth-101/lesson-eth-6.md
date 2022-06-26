@@ -89,7 +89,7 @@ module.exports = {
 };
 ```
 
-This is straightforward, we're using solidity 8.0, the rinkeby test network, the url property is an Ethereum node which we will be using Alchemy for (more on this later) and in accounts will be the private key of an Ethereum account (more on this later).
+This is straightforward, we're using solidity 8.0, the rinkeby test network, the url property is an Ethereum node which we will be using POKT for (more on this later) and in accounts will be the private key of an Ethereum account (more on this later).
 
 We can access these enviroment globally using the following line of code:
 
