@@ -222,6 +222,15 @@
       "contributions": [
         "bug"
       ]
+    },
+    {
+      "login": "XLazer4",
+      "name": "Rahul Khanna",
+      "avatar_url": "https://avatars.githubusercontent.com/u/75518572?v=4",
+      "profile": "https://github.com/XLazer4",
+      "contributions": [
+        "bug"
+      ]
     }
   ],
   "contributorsPerLine": 7,
