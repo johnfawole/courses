@@ -1,6 +1,6 @@
 See a typo or think you can explain a concept better?You're welcome to work and make edits to our material. 
 <!-- ALL-CONTRIBUTORS-BADGE:START - Do not remove or modify this section -->
-[![All Contributors](https://img.shields.io/badge/all_contributors-24-orange.svg?style=flat-square)](#contributors-)
+[![All Contributors](https://img.shields.io/badge/all_contributors-25-orange.svg?style=flat-square)](#contributors-)
 <!-- ALL-CONTRIBUTORS-BADGE:END -->
 
 
@@ -43,6 +43,7 @@ Thanks goes to these wonderful people ([emoji key](https://allcontributors.org/d
     <td align="center"><a href="http://tosayev.com"><img src="https://avatars.githubusercontent.com/u/106172091?v=4?s=100" width="100px;" alt=""/><br /><sub><b>Kazim Tosayev</b></sub></a><br /><a href="https://github.com/CadenaDev/courses/issues?q=author%3Atosayev" title="Bug reports">🐛</a></td>
     <td align="center"><a href="https://github.com/subhojyotisaha"><img src="https://avatars.githubusercontent.com/u/24640082?v=4?s=100" width="100px;" alt=""/><br /><sub><b>Subhojyoti Saha</b></sub></a><br /><a href="https://github.com/CadenaDev/courses/issues?q=author%3Asubhojyotisaha" title="Bug reports">🐛</a></td>
     <td align="center"><a href="https://tornode.org"><img src="https://avatars.githubusercontent.com/u/57093384?v=4?s=100" width="100px;" alt=""/><br /><sub><b>Alicia Schonefeld</b></sub></a><br /><a href="https://github.com/CadenaDev/courses/issues?q=author%3ALicceeee" title="Bug reports">🐛</a></td>
+    <td align="center"><a href="https://github.com/XLazer4"><img src="https://avatars.githubusercontent.com/u/75518572?v=4?s=100" width="100px;" alt=""/><br /><sub><b>Rahul Khanna</b></sub></a><br /><a href="https://github.com/CadenaDev/courses/issues?q=author%3AXLazer4" title="Bug reports">🐛</a></td>
   </tr>
 </table>
 
