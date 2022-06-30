@@ -41,7 +41,7 @@ contract MemeCoin is ERC20, Ownable, ERC20Burnable {
 
 You might be thinking wow that's it, I can make the next big meme coin with just less than 30 lines of code (actually less than 10 lines but I added some extra examples for learning purposes)? This is possible because we're inherting a bunch of useful functions and variables from OpenZepplin. Take a look at the full [ERC20 contract](https://github.com/OpenZeppelin/openzeppelin-contracts/blob/master/contracts/token/ERC20/ERC20.sol) we are inheriting to see all the functions and variables we're getting out of the box. We will use mint(), symbol(), name(), balance(), decimal() out of the box.
 
-Let's create a new Hardhat project called coin-smartcontract. You can follow the steps for setting up a Hardhat project [here](https://app.cadena.dev/lesson/ethereum-101/lesson-eth-6/6). Once you setup Hardhat run the following to install OpenZepplin. Then create a contract called MemeCoin.sol in your contracts folder.
+Let's create a new Hardhat project called coin-smartcontract. You can follow the steps for setting up a Hardhat project [here](https://app.cadena.dev/ZHjzLozd3mCsAcgMfeHE/lesson/ethereum-101/lesson-eth-6/6). Once you setup Hardhat run the following to install OpenZepplin. Then create a contract called MemeCoin.sol in your contracts folder.
 
 ```bash
 npm install @openzeppelin/contracts
