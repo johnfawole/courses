@@ -10,6 +10,8 @@ Upon review, you will then recieve an NFT Certificate that can be added to your 
 
 🔑 Coding experience is required. The key is to push through the lessons to learn the big picture concepts and you will pick up languages like Solidity as you build.
 
+🛠 If you're running into problems setting up a developer environment use [CodeSandBox](https://codesandbox.io/) for a virtual environment.
+
 ### What's the Ethereum Blockchain? 
 
 For our course we will be using the Ethereum blockchain. You might have heard of Ethereum and it’s core currency Ether. Ethereum was created by Vitalik Buterin and takes the concept of blockchains one step further. 
