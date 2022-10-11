@@ -24,7 +24,7 @@ We're going to use the following tools, technologies, and libraries:
 
 1. Hardhat - To write, compile and deploy our smart contracts.
 2. OpenZepplin - We will be using their ERC721 contract standards and libraries to speed up our development time.
-3. POKT - For our node endpoint to send our contracts up to the Rinkeby testnets.
+3. POKT - For our node endpoint to send our contracts up to the Goerli testnets.
 4. MetaMask - Our wallet of choice to test our dapp.
 5. Ether.js - We will use the ethers library for the front-end of our dapp, in order to interact with our smart contract. Our dapp will be built in React.
 6. [WAGMI](https://wagmi.sh/) (optional) - A set of React Hooks that makes working with ethers more efficient. You can connect a wallet, display ENS and balance information, sign messages, interact with contracts, etc. with a few lines of code.

@@ -10,7 +10,7 @@ Before we dive into the code of our smart contract, let's first think about what
 This is as simple as our smart contrat needs to be and infact you can use [OpenZepplin's Wizard](https://docs.openzeppelin.com/contracts/4.x/wizard) to create an ERC 721 contract that does just this. There are NFT Smart Contracts that range in complexity but for our lesson we're going to keep it simple so you can learn the fundementals. 
 
 You can find the tutorial to setup hardhat [here](
-https://app.cadena.dev/ZHjzLozd3mCsAcgMfeHE/lesson/ethereum-101/lesson-eth-6/6) and deploy a smart contract with hardhat [here](https://app.cadena.dev/ZHjzLozd3mCsAcgMfeHE/lesson/ethereum-101/lesson-eth-7/7). Alternatively you can also deploy your smart contract to Rinkeby using Remix. 
+https://app.cadena.dev/ZHjzLozd3mCsAcgMfeHE/lesson/ethereum-101/lesson-eth-6/6) and deploy a smart contract with hardhat [here](https://app.cadena.dev/ZHjzLozd3mCsAcgMfeHE/lesson/ethereum-101/lesson-eth-7/7). Alternatively you can also deploy your smart contract to Goerli using Remix. 
 
 You view the full code for our ERC-721 contract [here](https://gist.github.com/saeedjabbar/ef711176780db78df65ac7ae15d9e3c8) and get the hardhat repo [here](https://github.com/CadenaDev/cadena_nft_smartcontract).
 

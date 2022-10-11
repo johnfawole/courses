@@ -36,7 +36,7 @@ const metadataURI = `https://gateway.pinata.cloud/ipfs/INSERT_YOUR_JSON_CID_HERE
 
 ### Viewing your Minted NFTs 
 
-You can see if your NFT's have been minted by viewing them on the Rarible or OpenSea testnets. To do so simply take your smart contract address and paste it in the search bar.
+You can see if your NFT's have been minted by viewing them on the Alchemy Goerli or OpenSea testnets. To do so simply take your smart contract address and paste it in the search bar.
 
 | Testnets | Links                        |
 | -------- | ---------------------------- |
